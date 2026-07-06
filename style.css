@@ -9,6 +9,7 @@
     border:2px solid none;
     align-items: center;
     gap:5px;
+    
 }
 .day{
     border: 2px solid black;
@@ -19,7 +20,7 @@
    
     text-align: center;
     text-transform: capitalize;
-    
+    box-shadow: 0 0 10px rgba(0,255,0,0.7);
 }
 .date{
     border: 2px solid white;
@@ -28,6 +29,7 @@
     color:white;
     text-align: center;
 padding: 10px;
+ box-shadow: 0 0 10px rgba(0,0,200,0.7);
 
 }
 .date:hover{
