@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containar{
+    display: grid;
+    grid-template-rows:repeat(5,1fr) ;
+    grid-template-columns: repeat(7,1fr);
+    border:2px solid none;
+    align-items: center;
+    gap:5px;
+}
+.day{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: darkseagreen;
+    color: azure;
+    border-radius: 10px;
+   
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.date{
+    border: 2px solid white;
+    background-color:black;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+padding: 10px;
+
+}
+.date:hover{
+    background-color: blueviolet;
+    color: azure;
+}
+.day:hover{
+    background-color: cornflowerblue;
+}
+h2{
+    margin-left: 15px;
+}
